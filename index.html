@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mosarrat Tasnim Momo | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap" rel="stylesheet">
+
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">
+        <span class="brand-dot"></span>
+        <span class="brand-text">Momo</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="section hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-left" data-aos="fade-up">
+          <p class="badge">CSE Student • Python • SQL • C</p>
+
+          <h1 class="hero-title">
+            Hi, I’m <span class="accent">Mosarrat Tasnim Momo</span> <br />
+            <span class="muted">I’m a</span> <span class="typing accent"></span>
+          </h1>
+
+          <p class="hero-subtitle">
+            I’m a Computer Science & Engineering student at Daffodil International University.
+            I enjoy solving real-world problems using Python, SQL, data thinking, and structured software design.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+            <a class="btn ghost" href="https://github.com/shahedul33" target="_blank" rel="noopener">GitHub</a>
+          </div>
+
+          <div class="hero-stats" data-aos="fade-up" data-aos-delay="150">
+            <div class="stat">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">Python</div>
+              <div class="stat-label">Data / Apps</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">C</div>
+              <div class="stat-label">System Level</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right" data-aos="fade-left">
+          <div class="photo-card">
+            <img
+              src="images/my-photo.png"
+              alt="Mosarrat Tasnim Momo"
+              class="hero-photo"
+              loading="lazy"
+            />
+            <div class="photo-glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <h2 class="section-title">About</h2>
+          <p class="section-desc">
+            A quick overview of my background and what I focus on.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card" data-aos="fade-up">
+            <h3 class="card-title">Professional Summary</h3>
+            <p class="card-text">
+              I’m an undergraduate CSE student with a strong foundation in Python, SQL, and C programming.
+              I’m passionate about analysis, clean problem-solving, and building projects that are structured, reliable, and meaningful.
+            </p>
+
+            <div class="pill-row">
+              <span class="pill">Python</span>
+              <span class="pill">SQL</span>
+              <span class="pill">C</span>
+              <span class="pill">Web Basics</span>
+            </div>
+          </div>
+
+          <div class="about-media" data-aos="fade-up" data-aos-delay="150">
+            <div class="media-card">
+              <img src="images/university-image.png" alt="Daffodil International University" loading="lazy">
+              <div class="media-caption">
+                <strong>Daffodil International University</strong><br/>
+                Undergraduate CSE (Batch 63)
+              </div>
+            </div>
+
+            <div class="media-card">
+              <img src="images/school-image.png" alt="Viqarunnisa Noon School & College" loading="lazy">
+              <div class="media-caption">
+                <strong>Viqarunnisa Noon School & College</strong><br/>
+                SSC 4.78 • HSC 5.00
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-desc">Core tools and strengths I use in projects.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card" data-aos="fade-up">
+            <div class="skill-top">
+              <img class="skill-logo" src="images/python-logo.png" alt="Python logo" loading="lazy">
+              <h3 class="card-title">Python</h3>
+            </div>
+            <p class="card-text">
+              Web apps & data handling, file operations, structured logic, and scalable coding practices.
+            </p>
+          </div>
+
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-top">
+              <img class="skill-logo" src="images/sql-logo.png" alt="SQL logo" loading="lazy">
+              <h3 class="card-title">SQL</h3>
+            </div>
+            <p class="card-text">
+              Strong understanding of queries, data retrieval/update, permissions, views, and database structure.
+            </p>
+          </div>
+
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-top">
+              <img class="skill-logo" src="images/c-logo.png" alt="C logo" loading="lazy">
+              <h3 class="card-title">C</h3>
+            </div>
+            <p class="card-text">
+              Low-level programming foundation, memory awareness, optimization mindset, and debugging skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-desc">
+            A curated selection of my work with screenshots and GitHub links.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-aos="fade-up">
+            <div class="project-media">
+              <img src="images/project-compiler.png" alt="Compiler Design project screenshot" loading="lazy">
+              <span class="project-tag">C • Compiler</span>
+            </div>
+            <div class="project-body">
+              <h3 class="card-title">Compiler Design</h3>
+              <p class="card-text">
+                A mini compiler-focused project demonstrating fundamentals like lexical analysis, parsing, and structured processing.
+              </p>
+              <div class="project-actions">
+                <a class="btn small primary" href="https://github.com/shahedul33/Compiler-Design" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-media">
+              <img src="images/project-classifier.png" alt="SHD Classifier App screenshot" loading="lazy">
+              <span class="project-tag">Python • Data</span>
+            </div>
+            <div class="project-body">
+              <h3 class="card-title">SHD Classifier App</h3>
+              <p class="card-text">
+                A Python-based classifier interface that processes input and produces an output prediction workflow.
+              </p>
+              <div class="project-actions">
+                <a class="btn small primary" href="https://github.com/shahedul33/shd-classifier-app" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-media">
+              <img src="images/project-web.png" alt="Web Engineering project screenshot" loading="lazy">
+              <span class="project-tag">HTML • CSS • JS</span>
+            </div>
+            <div class="project-body">
+              <h3 class="card-title">Web Engineering</h3>
+              <p class="card-text">
+                Web implementations demonstrating layout, styling, responsiveness, and front-end fundamentals.
+              </p>
+              <div class="project-actions">
+                <a class="btn small primary" href="https://github.com/shahedul33/Web-Engineering" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section alt" id="education">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <h2 class="section-title">Education</h2>
+          <p class="section-desc">Academic journey and achievements.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">BSc in CSE — Daffodil International University</h3>
+              <p class="timeline-text">Undergraduate student • Batch 63</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">HSC — Viqarunnisa Noon School & College</h3>
+              <p class="timeline-text">GPA 5.00 • Passing Year: 2021</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-title">SSC — Viqarunnisa Noon School & College</h3>
+              <p class="timeline-text">GPA 4.78 • Passing Year: 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-desc">Open to internships, collaboration, and learning opportunities.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card" data-aos="fade-up">
+            <h3 class="card-title">Reach Me</h3>
+            <p class="card-text">
+              Phone: <strong>01978676448</strong><br/>
+              Email: <a class="link" href="mailto:momo22205101044@diu.edu.bd">momo22205101044@diu.edu.bd</a>
+            </p>
+
+            <div class="contact-actions">
+              <a class="btn primary" href="mailto:momo22205101044@diu.edu.bd">Email</a>
+              <a class="btn ghost" href="https://github.com/shahedul33" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+
+          <form class="contact-form" data-aos="fade-up" data-aos-delay="150">
+            <h3 class="card-title">Quick Message</h3>
+
+            <label class="field">
+              <span>Name</span>
+              <input type="text" placeholder="Write name" required>
+            </label>
+
+            <label class="field">
+              <span>Email</span>
+              <input type="email" placeholder="Write email" required>
+            </label>
+
+            <label class="field">
+              <span>Message</span>
+              <textarea rows="5" placeholder="Write message" required></textarea>
+            </label>
+
+            <button type="submit" class="btn primary">Send</button>
+            <p class="form-note">This form shows a success message (no server needed).</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Mosarrat Tasnim Momo • All rights reserved.</p>
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Libraries -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
